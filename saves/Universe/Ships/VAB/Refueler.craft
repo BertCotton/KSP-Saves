@@ -2,7 +2,7 @@ ship = Refueler
 version = 1.0.4
 description = 
 type = VAB
-size = 10.82183,27.34949,8.837431
+size = 10.82185,28.30769,6.779642
 PART
 {
 	part = roverBody_4288059848
@@ -1029,7 +1029,7 @@ PART
 	pos = 1.709543,21.86673,-1.136589
 	attPos = 0.2694865,0.2585042,-0.137211
 	attPos0 = 0.7305135,0.5346907,0.7461783
-	rot = 0.0005607305,-0.7031156,0.7110752,0.0005671791
+	rot = 0.0005607306,-0.7031157,0.7110753,0.0005671792
 	attRot = -0.6793026,0.1814381,-0.1845878,0.6866991
 	attRot0 = -0.1830129,-0.6830127,0.6830127,-0.1830128
 	mir = 1,1,1
@@ -1832,7 +1832,7 @@ PART
 	pos = 0.709542,18.46955,-1.592198
 	attPos = 0,0,0
 	attPos0 = -2.483244E-08,0.6203348,1.269381E-07
-	rot = 0,-4.791542E-21,-4.31946E-14,1
+	rot = 0,-9.583084E-21,-1.284597E-13,1
 	attRot = 0,0,0,1
 	attRot0 = 2.009718E-14,-8.42937E-08,-1,4.04354E-07
 	mir = 1,1,1
@@ -1965,7 +1965,7 @@ PART
 	pos = 0.709542,18.33258,-1.592197
 	attPos = 0,0,0.6814175
 	attPos0 = -3.500335E-14,-0.1369725,1.192358E-07
-	rot = 0,0,1.364882E-14,1
+	rot = 0,-5.989428E-21,1.364882E-14,1
 	attRot = 0,0,0,1
 	attRot0 = 0,2.395771E-21,1.477289E-14,1
 	mir = 1,1,1
@@ -2451,7 +2451,7 @@ PART
 	pos = 0.709542,17.63861,-1.592196
 	attPos = 0,0,0
 	attPos0 = -4.194707E-13,-0.4190273,3.585911E-07
-	rot = 0,2.395771E-21,1.364882E-14,1
+	rot = 0,0,1.364882E-14,1
 	attRot = 0,0,0,1
 	attRot0 = 0,-1.724955E-19,-5.82083E-13,1
 	mir = 1,1,1
@@ -2462,8 +2462,8 @@ PART
 	sqor = 1
 	sepI = 0
 	attm = 0
-	modCost = 1988.606
-	modMass = 3.314342
+	modCost = 925.8311
+	modMass = 1.543052
 	modSize = (0.0, 0.0, 0.0)
 	link = fuelTank1-2_4279727496
 	attN = top,advSasModule_4294501986
@@ -2546,62 +2546,17 @@ PART
 		}
 		XSECTION
 		{
-			h = 1.034996
-			r = 2.357291
+			h = 2.201256
+			r = 1.755036
 		}
 		XSECTION
 		{
-			h = 1.334996
-			r = 2.357291
+			h = 5.201256
+			r = 1.755036
 		}
 		XSECTION
 		{
-			h = 1.634996
-			r = 2.357291
-		}
-		XSECTION
-		{
-			h = 1.934996
-			r = 2.357291
-		}
-		XSECTION
-		{
-			h = 2.234996
-			r = 2.357291
-		}
-		XSECTION
-		{
-			h = 2.534996
-			r = 3
-		}
-		XSECTION
-		{
-			h = 3.716393
-			r = 3
-		}
-		XSECTION
-		{
-			h = 4.016393
-			r = 3
-		}
-		XSECTION
-		{
-			h = 4.316393
-			r = 3
-		}
-		XSECTION
-		{
-			h = 4.616393
-			r = 3
-		}
-		XSECTION
-		{
-			h = 7.329443
-			r = 3
-		}
-		XSECTION
-		{
-			h = 7.629443
+			h = 8.201256
 			r = 0.375
 		}
 	}
@@ -2645,10 +2600,10 @@ PART
 {
 	part = fuelTank1-2_4279727496
 	partName = Part
-	pos = 0.709542,15.56361,-1.592194
+	pos = 0.709542,15.56361,-1.592192
 	attPos = 0,0,0
 	attPos0 = -3.877896E-14,-2.075001,4.496571E-07
-	rot = 0,1.437463E-20,4.207054E-14,1
+	rot = 0,9.583084E-21,4.207054E-14,1
 	attRot = 0,0,0,1
 	attRot0 = 0,1.437463E-20,4.31946E-14,1
 	mir = 1,1,1
@@ -2725,7 +2680,7 @@ PART
 {
 	part = engineLargeSkipper_4277801860
 	partName = Part
-	pos = 0.709542,13.68861,-1.592184
+	pos = 0.709542,13.68861,-1.592179
 	attPos = 0,0,0
 	attPos0 = 8.947725E-14,-1.875001,1.649756E-06
 	rot = 0,9.583084E-21,4.207054E-14,1
@@ -2970,10 +2925,10 @@ PART
 {
 	part = decoupler1-2_4279745920
 	partName = Part
-	pos = 0.709542,10.86273,-1.592171
+	pos = 0.709542,10.86273,-1.592165
 	attPos = 0,0,0
 	attPos0 = -8.449916E-13,-2.825861,3.541523E-06
-	rot = 0,1.197886E-20,1.364882E-14,1
+	rot = 0,8.385199E-21,1.364882E-14,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,-1.364882E-14,1
 	mir = 1,1,1
@@ -3085,10 +3040,10 @@ PART
 {
 	part = fuelTank3-2_4294619192
 	partName = Part
-	pos = 0.709542,6.747218,-1.592153
+	pos = 0.709542,6.747207,-1.592142
 	attPos = 0,0,0
 	attPos0 = 3.334004E-13,-4.115475,2.586834E-06
-	rot = 0,3.114502E-20,1.364882E-14,1
+	rot = 0,2.874925E-20,1.364882E-14,1
 	attRot = 0,0,0,1
 	attRot0 = 0,2.036405E-20,1.477289E-14,1
 	mir = 1,1,1
@@ -3167,10 +3122,10 @@ PART
 {
 	part = radialDecoupler1-2_4294568056
 	partName = Part
-	pos = 1.757355,6.188242,-2.197106
+	pos = 1.757355,6.188232,-2.197095
 	attPos = 0,0,0
 	attPos0 = 1.047813,-0.5589848,-0.604951
-	rot = 2.318077E-07,0.9659255,-4.214685E-08,-0.2588205
+	rot = 2.318077E-07,0.9659256,-4.214685E-08,-0.2588205
 	attRot = 0,0,0,1
 	attRot0 = 2.36E-07,0.9659255,-6.32364E-08,-0.2588205
 	mir = 1,1,1
@@ -3282,10 +3237,10 @@ PART
 {
 	part = fuelTank3-2_4294618728
 	partName = Part
-	pos = 2.981622,6.605851,-2.903935
+	pos = 2.981625,6.605841,-2.903927
 	attPos = 0,0,0
 	attPos0 = -1.413649,0.4176109,-3.932462E-06
-	rot = 3.582482E-07,0.9659256,-1.264406E-07,-0.2588203
+	rot = 3.582482E-07,0.9659257,-1.264406E-07,-0.2588203
 	attRot = 0,0,0,1
 	attRot0 = -3.639935E-14,-2.724413E-07,1.214008E-07,1
 	mir = 1,1,1
@@ -3303,8 +3258,10 @@ PART
 	link = launchClamp1_4294379226
 	link = strutConnector_4294307126
 	link = strutConnector_4293887030
+	link = liquidEngine1-2_4292023664
 	sym = fuelTank3-2_4294567414
 	srfN = srfAttach,radialDecoupler1-2_4294568056
+	attN = bottom,liquidEngine1-2_4292023664
 	EVENTS
 	{
 	}
@@ -3363,7 +3320,7 @@ PART
 {
 	part = fuelLine_4294426252
 	partName = CompoundPart
-	pos = 2.659238,4.034113,-1.70076
+	pos = 2.659242,4.034103,-1.700746
 	attPos = 0,0,0
 	attPos0 = 0.880771,-2.571739,-0.8807742
 	rot = 1.264406E-07,0.6087625,-2.739545E-07,0.7933527
@@ -3391,8 +3348,8 @@ PART
 	PARTDATA
 	{
 		tgt = 4294619192
-		pos = -0.3374499,0.02046163,-0.6780536
-		rot = 0,-0.6087626,3.70976E-07,0.7933525
+		pos = -0.3374515,0.02046354,-0.6780575
+		rot = 0,-0.6087626,3.709761E-07,0.7933525
 		dir = -0.4453785,0.02701403,-0.8949348
 	}
 	MODULE
@@ -3446,7 +3403,7 @@ PART
 {
 	part = launchClamp1_4294379226
 	partName = Part
-	pos = 4.729121,2.841045,-3.912846
+	pos = 4.729129,2.841036,-3.912836
 	attPos = 0,0,0
 	attPos0 = -2.017828,-3.764805,-1.940504E-06
 	rot = -3.371748E-07,-0.499999,-1.685874E-07,0.8660262
@@ -3478,8 +3435,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 1.387603
-		height = 3.501196
+		scaleFactor = 1.387599
+		height = 3.501186
 		towerRot = 3.371747E-07,0.4999989,1.685874E-07,0.866026
 		EVENTS
 		{
@@ -3601,10 +3558,10 @@ PART
 {
 	part = strutConnector_4294307126
 	partName = CompoundPart
-	pos = 2.787574,10.23011,-2.955945
+	pos = 2.787579,10.23011,-2.95594
 	attPos = 0,0,0
 	attPos0 = 0.142054,3.624243,0.1420575
-	rot = 0.5000002,-0.5000004,-0.5000002,0.4999996
+	rot = 0.5000003,-0.5000005,-0.5000002,0.4999996
 	attRot = 0,0,0,1
 	attRot0 = 0.3535525,-0.3535523,0.6123732,-0.6123729
 	mir = 1,1,1
@@ -3629,8 +3586,8 @@ PART
 	PARTDATA
 	{
 		tgt = 4279727496
-		pos = -4.087198,0.7324615,1.048315
-		rot = 0,0.6123714,-0.3535562,0.7071062
+		pos = -4.087211,0.7324636,1.048317
+		rot = 0,0.6123716,-0.3535563,0.7071061
 		dir = -0.9543733,0.1710315,0.2447852
 	}
 	MODULE
@@ -3684,7 +3641,7 @@ PART
 {
 	part = strutConnector_4293887030
 	partName = CompoundPart
-	pos = 2.683198,10.23011,-2.605507
+	pos = 2.683201,10.23011,-2.605502
 	attPos = 0,0,0
 	attPos0 = 0.4076628,3.624248,-0.109236
 	rot = -0.5000004,0.5000001,-0.5000004,0.4999996
@@ -3712,8 +3669,8 @@ PART
 	PARTDATA
 	{
 		tgt = 4284872080
-		pos = -7.551623,-0.3204502,-0.9163064
-		rot = 0,-0.5000007,0.5,0.7071063
+		pos = -7.551603,-0.3204482,-0.9163048
+		rot = 0,-0.5000007,0.5000001,0.7071064
 		dir = -0.9918391,-0.04208773,-0.1203493
 	}
 	MODULE
@@ -3765,12 +3722,256 @@ PART
 }
 PART
 {
+	part = liquidEngine1-2_4292023664
+	partName = Part
+	pos = 2.981626,1.790531,-2.903916
+	attPos = 0,0,0
+	attPos0 = -4.32647E-07,-4.815311,-4.433773E-06
+	rot = 1.090839E-08,-1,0,-8.842746E-08
+	attRot = 0,0,0,1
+	attRot0 = 8.429368E-08,0.2588204,3.582481E-07,-0.9659255
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 3
+	dstg = 8
+	sidx = 6
+	sqor = 3
+	sepI = 2
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = liquidEngine1-2_4292023964
+	attN = top,fuelTank3-2_4294618728
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 25.5
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleJettison
+		isEnabled = True
+		isJettisoned = True
+		EVENTS
+		{
+			Jettison
+			{
+				active = False
+				guiActive = True
+				guiIcon = Jettison
+				guiName = Jettison
+				category = Jettison
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			JettisonAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleGimbal
+		isEnabled = True
+		gimbalLock = False
+		gimbalLimiter = 100
+		gimbalLock_UIFlight
+		{
+			controlEnabled = True
+		}
+		gimbalLimiter_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			LockAction
+			{
+				actionGroup = None
+			}
+			FreeAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSurfaceFX
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		EVENTS
+		{
+			PopupNameTagChanger
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Change Name Tag
+				guiName = Change Name Tag
+				category = Change Name Tag
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = False
+		hideFlow = True
+		flowMode = Both
+	}
+}
+PART
+{
 	part = radialDecoupler1-2_4294567954
 	partName = Part
-	pos = -0.3382736,6.188231,-0.9871935
+	pos = -0.3382747,6.188219,-0.9871821
 	attPos = 0,0,0
 	attPos0 = -1.047812,-0.5589848,0.6049588
-	rot = -4.214685E-08,-0.2588205,-2.318077E-07,-0.9659256
+	rot = -4.214685E-08,-0.2588205,-2.318077E-07,-0.9659255
 	attRot = 0,0,0,1
 	attRot0 = -6.323641E-08,-0.2588205,-2.359999E-07,-0.9659254
 	mir = 1,1,1
@@ -3882,7 +4083,7 @@ PART
 {
 	part = fuelTank3-2_4294567414
 	partName = Part
-	pos = -1.562531,6.60584,-0.2803644
+	pos = -1.562531,6.605828,-0.2803531
 	attPos = 0,0,0
 	attPos0 = -1.413652,0.417607,-7.467334E-07
 	rot = -8.42937E-08,-0.2588204,-3.582482E-07,-0.9659257
@@ -3903,8 +4104,10 @@ PART
 	link = launchClamp1_4294380504
 	link = strutConnector_4294307252
 	link = strutConnector_4293886918
+	link = liquidEngine1-2_4292023964
 	sym = fuelTank3-2_4294618728
 	srfN = srfAttach,radialDecoupler1-2_4294567954
+	attN = bottom,liquidEngine1-2_4292023964
 	EVENTS
 	{
 	}
@@ -3963,10 +4166,10 @@ PART
 {
 	part = fuelLine_4294426398
 	partName = CompoundPart
-	pos = -1.240153,4.034105,-1.483517
+	pos = -1.240156,4.034096,-1.483505
 	attPos = 0,0,0
 	attPos0 = 0.88077,-2.571743,-0.8807693
-	rot = -2.739545E-07,0.7933527,-8.42937E-08,-0.6087627
+	rot = -2.739545E-07,0.7933526,-8.42937E-08,-0.6087626
 	attRot = 0,0,0,1
 	attRot0 = -8.229452E-08,-0.9238796,3.408756E-08,0.3826834
 	mir = 1,1,1
@@ -3991,8 +4194,8 @@ PART
 	PARTDATA
 	{
 		tgt = 4294619192
-		pos = -0.3374399,0.02046166,-0.6780553
-		rot = 0,-0.6087624,3.386354E-07,0.7933526
+		pos = -0.3374414,0.02046357,-0.6780578
+		rot = 0,-0.6087624,3.386355E-07,0.7933526
 		dir = -0.4453785,0.02701403,-0.8949348
 	}
 	MODULE
@@ -4046,10 +4249,10 @@ PART
 {
 	part = launchClamp1_4294380504
 	partName = Part
-	pos = -3.310025,2.841038,0.7285689
+	pos = -3.31003,2.841028,0.7285851
 	attPos = 0,0,0
 	attPos0 = -2.017828,-3.764807,3.400759E-06
-	rot = -1.685874E-07,0.8660264,2.95028E-07,0.4999989
+	rot = -1.685874E-07,0.8660263,2.95028E-07,0.4999989
 	attRot = 0,0,0,1
 	attRot0 = -1.491014E-08,-0.7071069,1.49101E-08,-0.7071068
 	mir = 1,1,1
@@ -4078,9 +4281,9 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 1.3876
-		height = 3.501186
-		towerRot = 1.685874E-07,-0.8660262,-2.950279E-07,0.4999988
+		scaleFactor = 1.387596
+		height = 3.501177
+		towerRot = 1.685874E-07,-0.8660261,-2.950279E-07,0.4999988
 		EVENTS
 		{
 			Release
@@ -4201,10 +4404,10 @@ PART
 {
 	part = strutConnector_4294307252
 	partName = CompoundPart
-	pos = -1.368485,10.23011,-0.2283722
+	pos = -1.368488,10.23011,-0.2283641
 	attPos = 0,0,0
 	attPos0 = 0.1420545,3.624244,0.1420599
-	rot = -0.5000002,0.4999997,-0.5000002,0.5000005
+	rot = -0.5000002,0.4999998,-0.5000001,0.5000005
 	attRot = 0,0,0,1
 	attRot0 = 0.3535525,-0.3535522,0.6123732,-0.6123729
 	mir = 1,1,1
@@ -4229,8 +4432,8 @@ PART
 	PARTDATA
 	{
 		tgt = 4279727496
-		pos = -4.087291,0.7324738,1.048343
-		rot = 0,0.6123723,-0.3535533,0.7071069
+		pos = -4.087313,0.7324767,1.048348
+		rot = 0,0.6123724,-0.3535532,0.707107
 		dir = -0.9543733,0.1710315,0.2447852
 	}
 	MODULE
@@ -4284,7 +4487,7 @@ PART
 {
 	part = strutConnector_4293886918
 	partName = CompoundPart
-	pos = -1.26411,10.23009,-0.5787978
+	pos = -1.264113,10.23009,-0.5787895
 	attPos = 0,0,0
 	attPos0 = 0.4076606,3.624245,-0.1092337
 	rot = -0.5000002,0.4999995,0.5000004,-0.5000005
@@ -4312,8 +4515,8 @@ PART
 	PARTDATA
 	{
 		tgt = 4284872080
-		pos = -7.552092,-0.3204637,-0.9163707
-		rot = 0,-0.4999953,0.500005,0.7071066
+		pos = -7.552164,-0.3204666,-0.9163789
+		rot = 0,-0.4999953,0.5000051,0.7071065
 		dir = -0.9918391,-0.04208773,-0.1203493
 	}
 	MODULE
@@ -4365,9 +4568,253 @@ PART
 }
 PART
 {
+	part = liquidEngine1-2_4292023964
+	partName = Part
+	pos = -1.562532,1.79052,-0.2803447
+	attPos = 0,0,0
+	attPos0 = -4.142285E-06,-4.815311,4.132496E-06
+	rot = 0,-4.421373E-08,-6.7828E-14,1
+	attRot = 0,0,0,1
+	attRot0 = 8.429368E-08,0.2588204,3.582481E-07,-0.9659255
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 3
+	dstg = 8
+	sidx = 5
+	sqor = 3
+	sepI = 2
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = liquidEngine1-2_4292023664
+	attN = top,fuelTank3-2_4294567414
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 25.5
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = True
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = False
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleJettison
+		isEnabled = True
+		isJettisoned = True
+		EVENTS
+		{
+			Jettison
+			{
+				active = False
+				guiActive = True
+				guiIcon = Jettison
+				guiName = Jettison
+				category = Jettison
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			JettisonAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleGimbal
+		isEnabled = True
+		gimbalLock = False
+		gimbalLimiter = 100
+		gimbalLock_UIFlight
+		{
+			controlEnabled = True
+		}
+		gimbalLimiter_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 1
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			LockAction
+			{
+				actionGroup = None
+			}
+			FreeAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSurfaceFX
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		EVENTS
+		{
+			PopupNameTagChanger
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Change Name Tag
+				guiName = Change Name Tag
+				category = Change Name Tag
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 0
+		maxAmount = 0
+		flowState = True
+		isTweakable = False
+		hideFlow = True
+		flowMode = Both
+	}
+}
+PART
+{
 	part = liquidEngine1-2_4294614534
 	partName = Part
-	pos = 0.709542,1.931915,-1.592137
+	pos = 0.709542,1.931906,-1.592122
 	attPos = 0,0,0
 	attPos0 = 9.19244E-13,-4.815311,4.838675E-06
 	rot = 0,3.35408E-20,4.207054E-14,1
@@ -4610,7 +5057,7 @@ PART
 {
 	part = launchClamp1_4294395630
 	partName = Part
-	pos = -0.297791,2.932512,-3.336889
+	pos = -0.2977921,2.932503,-3.336876
 	attPos = 0,0,0
 	attPos0 = -1.00733,-3.814712,-1.744739
 	rot = 1.264406E-07,-0.2588197,-4.214685E-08,-0.9659258
@@ -4642,8 +5089,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 1.423854
-		height = 3.592663
+		scaleFactor = 1.423851
+		height = 3.592653
 		towerRot = -1.264405E-07,0.2588197,4.214685E-08,-0.9659257
 		EVENTS
 		{
@@ -4765,7 +5212,7 @@ PART
 {
 	part = launchClamp1_4294395130
 	partName = Part
-	pos = 1.716872,2.932512,0.1526073
+	pos = 1.716872,2.932503,0.1526225
 	attPos = 0,0,0
 	attPos0 = 1.00733,-3.814712,1.744748
 	rot = -3.161014E-08,-0.9659258,-1.264406E-07,0.2588197
@@ -4797,8 +5244,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 1.423852
-		height = 3.592661
+		scaleFactor = 1.423849
+		height = 3.592651
 		towerRot = 3.161013E-08,0.9659257,1.264405E-07,0.2588197
 		EVENTS
 		{
@@ -5026,7 +5473,7 @@ PART
 {
 	part = solarPanels1_4273982478
 	partName = Part
-	pos = 0.9048991,16.61615,-0.3847859
+	pos = 0.9048992,16.61615,-0.3847831
 	attPos = 0,0,0
 	attPos0 = 0.1953564,1.052541,1.207409
 	rot = 4.846888E-07,-0.7071071,5.268357E-07,-0.7071068
